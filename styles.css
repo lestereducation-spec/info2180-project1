@@ -88,3 +88,23 @@ nav ul {
     display: inline-block;
     padding: 12px 24px;
 }
+
+.stories article {
+    display: flex;
+    align-items: center;
+    gap: 30px;
+    margin-bottom: 40px;
+}
+
+.stories img {
+    width: 160px;
+    height: 160px;
+    object-fit: cover;
+    border-radius: 50%;
+    flex-shrink: 0;
+}
+
+.article-body {
+    flex: 1;
+    min-width: 0;
+}
