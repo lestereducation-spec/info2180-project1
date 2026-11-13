@@ -16,6 +16,10 @@ header {
     background-color: white;
 }
 
+header h1 {
+    font-size: 18px;
+}
+
 .container {
     margin: 0 auto;
     max-width: 960px;
@@ -72,6 +76,15 @@ nav a:hover {
 
 .learn-about {
     border: 1px solid #E2E8F0;
+}
+
+.learn-about h2 {
+    color: #48BB78;
+    font-size: 24px;
+}
+
+.learn-about .card h3 {
+    color: #48BB78;
     font-size: 21px;
 }
 
@@ -124,8 +137,13 @@ nav a:hover {
     color: white;
 }
 
-.stories h2, a{
+.stories h2,
+.stories a {
     color: #5A67D8;
+}
+
+.stories h3 {
+    font-size: 18px;
 }
 
 .stories article {
@@ -154,7 +172,7 @@ nav a:hover {
     color: white;
 }
 
-.form-group .btn {
+.newsletter .btn {
 background-color: #5A67D8;
 }
 
