@@ -72,3 +72,19 @@ nav ul {
 .card-body {
     padding: 20px;
 }
+
+.testing .container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 30px;
+}
+
+.testing-desciption {
+    flex: 1;
+}
+
+.cta .btn {
+    display: inline-block;
+    padding: 12px 24px;
+}
